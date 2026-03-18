@@ -17,52 +17,6 @@ import { useParams } from "next/navigation";
 import { Course } from "../(routes)/courses/_components/CourseList";
 import axios from "axios";
 
-
-// const courses = [
-//   {
-//     id: 1,
-//     name: "HTML",
-//     desc: "Learn the fundamentals of HTML and build the structure of modern web pages.",
-//     level: "Beginner",
-//   },
-//   {
-//     id: 2,
-//     name: "CSS",
-//     desc: "Master CSS to style and design responsive layouts.",
-//     level: "Beginner",
-//   },
-//   {
-//     id: 3,
-//     name: "JavaScript",
-//     desc: "Learn core JavaScript and modern ES6 features.",
-//     level: "Beginner",
-//   },
-//   {
-//     id: 4,
-//     name: "Python",
-//     desc: "Learn Python programming from basics.",
-//     level: "Beginner",
-//   },
-//   {
-//     id: 5,
-//     name: "React",
-//     desc: "Build dynamic and interactive web applications.",
-//     level: "Beginner",
-//   },
-//   {
-//     id: 6,
-//     name: "React Advanced",
-//     desc: "Advanced React concepts including hooks and optimization.",
-//     level: "Advanced",
-//   },
-//   {
-//     id: 7,
-//     name: "Java",
-//     desc: "Learn Java programming fundamentals including OOP, data types, loops, and core concepts.",
-//     level: "Beginner",
-//   },
-// ];
-
 function Header() {
   const { user } = useUser();
   const { exerciseslug } = useParams();

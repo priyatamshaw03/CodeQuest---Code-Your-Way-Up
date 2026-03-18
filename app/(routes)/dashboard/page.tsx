@@ -17,12 +17,12 @@ function Dashboard() {
           <EnrolledCourses/>
           <ExploreMoreCourse/>
           <ExploreMore/>
-          <InviteFriend/>
         </div>
         <div>
           <UserStatus/>
           <UpgradeToPro/>
           <Needhelp/>
+          <InviteFriend/>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ function InviteFriend() {
 
       <div className='flex gap-2 items-center mt-5 w-full'>
         <Input
-          placeholder='Enter Invitee Email'
+          placeholder='Enter Email'
           className='flex-1 font-game'
         />
         <Button

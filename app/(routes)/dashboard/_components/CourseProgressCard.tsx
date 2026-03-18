@@ -38,7 +38,7 @@ function CourseProgressCard({ course }: Props) {
 
           <div className="flex justify-between mt-3 text-sm sm:text-md text-gray-400">
             <p>
-              XP:{" "}
+              XP :{" "}
               <span className="text-yellow-400">
                 {course?.xpEarned}
               </span>
