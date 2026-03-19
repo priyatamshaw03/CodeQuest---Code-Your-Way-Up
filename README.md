@@ -1,7 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+CodeQuest is a modern, interactive course-based learning platform built with Next.js (App Router). It allows users to explore courses, enroll, complete interactive coding exercises, earn XP, and get AI-powered help while learning.
+
+## TECH STACK
+# Frontend:
+Next.js 16 (App Router)
+React
+TypeScript
+Tailwind CSS
+Shadcn UI
+Sandpack (Code Editor & Preview)
+Lucide Icons
+
+# Backend / APIs:
+Next.js API Routes
+Drizzle ORM
+PostgreSQL (or compatible SQL DB)
+Clerk Authentication
+
+# Other Tools:
+Sonner (Toasts)
+Axios
+React Split (Resizable Panels)
+
+## FEATURES
+✔ User authentication (Sign up / Sign in) 
+✔ Course listing & course detail pages 
+✔ Chapter & exercise-based learning flow 
+✔ Locked / unlocked exercises logic 
+✔ Interactive code editor with live preview 
+✔ XP-based progress tracking 
+✔ Course progress status (Exercises + XP) 
+✔ Pro subscription support 
+
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
