@@ -1,40 +1,71 @@
+# 🚀 CodeQuest
 
-CodeQuest is a modern, interactive course-based learning platform built with Next.js (App Router). It allows users to explore courses, enroll, complete interactive coding exercises, earn XP, and get AI-powered help while learning.
+**CodeQuest** is a modern, interactive course-based learning platform built with **Next.js (App Router)**. It enables users to explore courses, enroll, practice coding through interactive exercises, earn XP, and track their progress while learning.
 
-## TECH STACK
-# Frontend:
-Next.js 16 (App Router)
-React
-TypeScript
-Tailwind CSS
-Shadcn UI
-Sandpack (Code Editor & Preview)
-Lucide Icons
+---
 
-# Backend / APIs:
-Next.js API Routes
-Drizzle ORM
-PostgreSQL (or compatible SQL DB)
-Clerk Authentication
+## ✨ Features
 
-# Other Tools:
-Sonner (Toasts)
-Axios
-React Split (Resizable Panels)
+- 🔐 User Authentication (Sign Up / Sign In)
+- 📚 Course Listing & Detailed Course Pages
+- 🧩 Chapter & Exercise-Based Learning Flow
+- 🔒 Locked / Unlocked Exercise System
+- 💻 Interactive Code Editor with Live Preview
+- ⚡ XP-Based Progress Tracking
+- 📊 Course Progress Tracking (Exercises + XP)
+- 💎 Pro Subscription Support
+- 🤖 AI-Powered Learning Assistance
 
-## FEATURES
-✔ User authentication (Sign up / Sign in) 
-✔ Course listing & course detail pages 
-✔ Chapter & exercise-based learning flow 
-✔ Locked / unlocked exercises logic 
-✔ Interactive code editor with live preview 
-✔ XP-based progress tracking 
-✔ Course progress status (Exercises + XP) 
-✔ Pro subscription support 
+---
 
+## 🛠 Tech Stack
 
-## Getting Started
-First, run the development server:
+### Frontend
+- Next.js 16 (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- Sandpack (Code Editor & Live Preview)
+- Lucide Icons
+
+### Backend / APIs
+- Next.js API Routes
+- Drizzle ORM
+- PostgreSQL (or compatible SQL database)
+- Clerk Authentication
+
+### Other Tools
+- Sonner (Toast Notifications)
+- Axios
+- React Split (Resizable Panels)
+
+---
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/codequest.git
+cd codequest
+```
+
+---
+
+## Install the dependencies
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+--- 
+
+## Run the development server
 
 ```bash
 npm run dev
@@ -46,23 +77,16 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works ?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Users sign in using Clerk Authentication
+- Browse and enroll in courses
+- Complete exercises using an embedded code editor (Sandpack)
+- Earn XP points for progress
+- Unlock new lessons based on completion
+- Track learning progress via dashboard
+- Upgrade to Pro for premium features
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
